@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2? family = Lato & display = swap');
+
+::-webkit-scrollbar {
+    width: 6px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        width: 6px;
+        background: linear-gradient(rgb(83, 228, 119), rgb(23, 138, 67));
+        border-radius: 8px;
+
+        }
+
+ body {
+    font-family: „Lato”, sans-serif;
+    margin-top: 100px;
+    background: url("../imagini/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    background-attachment: fixed;
+    }
+
+    .day {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: column;*/
+    justify-content: space-evenly;
+   
+    }
+
+    table {
+        margin: 5px;
+        background-color: rgba(255, 250, 205, 0.829);
+    }
+
+    .titlu {
+        background-color: rgba(252, 249, 225, 0.945);
+        padding: 20px;
+        margin: 80px;
+        border-radius: 10px;
+    }
+
+    footer {
+        margin: 0px;
+        background-color: rgba(255, 250, 205, 0.822);
+        padding: 20px;
+    }
+
